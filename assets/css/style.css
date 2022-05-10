@@ -314,6 +314,11 @@ header .header-top .col-det .ulright li i {
 header .header-top .col-det .ulright li span {
   margin-left: 15px;
 }
+
+social-icon:hover {
+  color: blue;
+}
+
 header .header-bottom {
   padding: 15px;
 }
@@ -784,8 +789,8 @@ header .nav-col .navbar-nav .nav-btn {
 
 footer {
   padding: 80px 50px;
-  background-color: #222;
-  color: #fff;
+  background-color: #242526;
+  color: white;
 }
 
 @media screen and (max-width: 940px) {
@@ -837,10 +842,10 @@ footer .glink ul li i {
 }
 
 footer .glink ul li a {
-  color: #fff;
+  color: white;
 }
 
-footer .tags ul li {
+.tags ul li {
   float: left;
   padding: 8px;
   margin-right: 8px;
@@ -850,12 +855,12 @@ footer .tags ul li {
 
 .copy {
   padding: 20px;
-  background-color: #191616;
-  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #000;
 }
 
 .copy a {
-  color: #fff;
+  color: #000;
 }
 
 .copy span {
