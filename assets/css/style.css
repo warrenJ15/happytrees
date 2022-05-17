@@ -1,8 +1,7 @@
 /* ===================================== Import Less ================================== */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700);
 @import url(https://fonts.googleapis.com/css?family=Arimo:300,400,400italic,700,700italic);
-@import url(https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
-/* ===================================== Basic CSS ==================================== */
+@import url(https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono&display=swap);
 * {
   margin: 0px;
   padding: 0px;
@@ -98,7 +97,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: montserrat;
+  font-family: Space Mono;
 }
 
 strong {
@@ -107,7 +106,7 @@ strong {
 
 body {
   background-color: #f1f1f145 !important;
-  font-family: arimo;
+  font-family: Montserrat;
   color: black;
   overflow-x: hidden;
 }
@@ -339,7 +338,9 @@ header .nav-col .navbar-nav {
 header .nav-col .navbar-nav li {
   padding: 7px 20px;
   font-weight: 600;
+  font-family: Space Mono;
 }
+
 header .nav-col .navbar-nav .nav-btn {
   float: right;
 }
